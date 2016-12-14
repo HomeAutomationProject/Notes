@@ -1,3 +1,7 @@
 
 RabbitMQ:
 https://hub.docker.com/_/rabbitmq/    (https://github.com/docker-library/repo-info/blob/master/repos/rabbitmq/tag-details.md)
+
+
+Mosquitto:
+https://hub.docker.com/r/toke/mosquitto/  (https://github.com/toke/docker-mosquitto)
