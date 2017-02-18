@@ -5,3 +5,17 @@ https://hub.docker.com/_/rabbitmq/    (https://github.com/docker-library/repo-in
 
 Mosquitto:
 https://hub.docker.com/r/toke/mosquitto/  (https://github.com/toke/docker-mosquitto)
+
+test client can be installed via:
+sudo apt install mosquitto-clients
+
+run to subscribe to the broker:
+mosquitto_sub -h [domain] -t all
+
+run to public a messages to the broker:
+mosquitto_pub -h [domain] -t all -m '{this is a test}'
+
+If all goes well then the test message would show up on tab with the subscription.
+
+docs:
+https://mosquitto.org/documentation/

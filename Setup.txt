@@ -1,0 +1,7 @@
+Added following devices:
+
+wemos in kitchen, which is publishing the following:
+
+weather {"loc":"Kitchen","sht30_tmp":31.07,"sht30_hum":47.19,"tmp":30.50,"prs":"1012.11","alt":9.50}
+
+
